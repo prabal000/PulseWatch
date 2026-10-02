@@ -2,7 +2,7 @@
 > Watch the pulse of your applications.
 
 AI-powered application observability and incident intelligence platform.
-Status: in development (Day 1 of 28)
+Status: in development 
 
 ## Quick start
     cp .env.example .env     # then set your own password

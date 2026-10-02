@@ -1,0 +1,14 @@
+{
+  "name": "pulsewatch",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI-powered application observability and incident intelligence platform",
+  "packageManager": "pnpm@12.8.1",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "infra:up": "docker compose -f infra/compose/docker-compose.yml --env-file .env up -d",
+    "infra:down": "docker compose -f infra/compose/docker-compose.yml --env-file .env down",
+    "infra:ps": "docker compose -f infra/compose/docker-compose.yml --env-file .env ps",
+    "infra:logs": "docker compose -f infra/compose/docker-compose.yml --env-file .env logs -f"
+  }
+}

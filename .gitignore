@@ -17,3 +17,5 @@ __pycache__/
 .vscode/*
 !.vscode/extensions.json
 *.log
+# prisma generated client
+generated/

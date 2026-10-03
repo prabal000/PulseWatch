@@ -2,3 +2,9 @@ packages:
   - "apps/*"
   - "workers/*"
   - "packages/*"
+
+# Install scripts are blocked by default; only allow ones we've reviewed.
+allowBuilds:
+  esbuild: false
+  prisma: false
+  '@prisma/engines': false

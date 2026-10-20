@@ -8,3 +8,5 @@ allowBuilds:
   esbuild: false
   prisma: false
   '@prisma/engines': false
+  sharp: false
+  unrs-resolver: false

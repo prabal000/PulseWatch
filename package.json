@@ -9,6 +9,7 @@
     "infra:up": "docker compose -f infra/compose/docker-compose.yml --env-file .env up -d",
     "infra:down": "docker compose -f infra/compose/docker-compose.yml --env-file .env down",
     "infra:ps": "docker compose -f infra/compose/docker-compose.yml --env-file .env ps",
-    "infra:logs": "docker compose -f infra/compose/docker-compose.yml --env-file .env logs -f"
+    "infra:logs": "docker compose -f infra/compose/docker-compose.yml --env-file .env logs -f",
+    "dev:web": "pnpm --filter @pulsewatch/web dev"
   }
 }
